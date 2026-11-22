@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-GB" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="scripts/build.mjs">
+  <title>MGLF1 · hxrry.dev</title>
+  <meta name="description" content="a formula 1-inspired website project.">
+
+  <script>
+    try {
+      const saved = localStorage.getItem("theme");
+      if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+    } catch (e) {}
+  </script>
+
+  <link rel="preload" href="../../fonts/jost-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../css/style.css?v=7c17db0f">
+  <link rel="icon" href="../../favicon.png" type="image/png">
+  <script src="../../js/site.js?v=9fbc85eb" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="../../">h<span class="x">x</span>rry<span class="tld">.dev</span></a>
+    <nav aria-label="Main">
+      <a href="../../">home</a>
+      <a href="../../projects/" aria-current="page">projects</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to light theme" hidden>
+      <svg class="icon icon-sun" aria-hidden="true"><use href="../../icons/icons.svg?v=e73d9ee9#sun"></use></svg>
+      <svg class="icon icon-moon" aria-hidden="true"><use href="../../icons/icons.svg?v=e73d9ee9#moon"></use></svg>
+    </button>
+  </header>
+
+  <main id="main" class="page case-study">
+    <p class="back"><a href="../"><svg class="icon" aria-hidden="true"><use href="../../icons/icons.svg?v=e73d9ee9#arrow-left"></use></svg>projects</a></p>
+    <header class="case-head">
+      <h1>MGLF1</h1>
+      <p class="lede">a formula 1-inspired website project.</p>
+      <dl class="facts-row">
+        <div><dt>site</dt><dd><a href="https://www.mglf1.co.uk/" rel="noreferrer">mglf1.co.uk<svg class="icon" aria-hidden="true"><use href="../../icons/icons.svg?v=e73d9ee9#arrow-up-right"></use></svg></a></dd></div>
+        <div><dt>tools</dt><dd><ul class="badges" aria-label="tools"><li class="badge badge-tool">JavaScript</li><li class="badge badge-tool">React</li><li class="badge badge-tool">PostgreSQL</li><li class="badge badge-tool">Tailwind CSS</li><li class="badge badge-tool">Next.js</li><li class="badge badge-tool">npm</li><li class="badge badge-tool">nginx</li><li class="badge badge-tool">HTML</li></ul></dd></div>
+        <div><dt>skills</dt><dd><ul class="badges" aria-label="skills"><li class="badge badge-skill">data analytics</li></ul></dd></div>
+      </dl>
+    </header>
+    <p class="coming-soon">a proper write-up is coming soon.</p>
+
+    <nav class="more-projects" aria-labelledby="more-projects-title">
+      <h2 id="more-projects-title" class="label"><svg class="icon" aria-hidden="true"><use href="../../icons/icons.svg?v=e73d9ee9#folder-open"></use></svg>more projects</h2>
+      <ul class="project-list">
+          <li>
+            <a href="../../projects/valesmp/">
+              <span class="project-text">
+                <span class="project-name">ValeSMP</span>
+                <span class="project-summary">a community-focused minecraft survival server and website.</span>
+              </span>
+              <svg class="icon go" aria-hidden="true"><use href="../../icons/icons.svg?v=e73d9ee9#arrow-right"></use></svg>
+            </a>
+            <ul class="badges" aria-label="tools and skills"><li class="badge badge-tool">Docker</li><li class="badge badge-tool">Next.js</li><li class="badge badge-tool">Java</li><li class="badge badge-tool">JavaScript</li><li class="badge badge-tool">Velocity</li><li class="badge badge-tool">PurpurMC</li><li class="badge badge-tool">GitHub</li><li class="badge badge-skill">community management</li></ul>
+          </li>
+      </ul>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 harry · <a href="https://github.com/hxrry27/hxrry.dev" rel="noreferrer">source on GitHub</a></p>
+  </footer>
+</body>
+</html>

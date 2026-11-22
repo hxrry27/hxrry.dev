@@ -1,0 +1,7 @@
+vscode.svg is Microsoft's official Visual Studio Code icon, unmodified, from
+https://code.visualstudio.com/brand (visual-studio-code-icons.zip, version 2021-06-21).
+
+Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+Microsoft Corporation. All rights reserved. It is used here only to name the
+editor I use, under Microsoft's brand guidelines, and is not covered by this
+site's MIT licence.

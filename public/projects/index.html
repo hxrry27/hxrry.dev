@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-GB" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="scripts/build.mjs">
+  <title>projects · hxrry.dev</title>
+  <meta name="description" content="things harry has worked on.">
+
+  <script>
+    try {
+      const saved = localStorage.getItem("theme");
+      if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+    } catch (e) {}
+  </script>
+
+  <link rel="preload" href="../fonts/jost-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../css/style.css?v=7c17db0f">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <script src="../js/site.js?v=9fbc85eb" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="../">h<span class="x">x</span>rry<span class="tld">.dev</span></a>
+    <nav aria-label="Main">
+      <a href="../">home</a>
+      <a href="../projects/" aria-current="page">projects</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to light theme" hidden>
+      <svg class="icon icon-sun" aria-hidden="true"><use href="../icons/icons.svg?v=e73d9ee9#sun"></use></svg>
+      <svg class="icon icon-moon" aria-hidden="true"><use href="../icons/icons.svg?v=e73d9ee9#moon"></use></svg>
+    </button>
+  </header>
+
+  <main id="main" class="page projects-page">
+    <header class="case-head">
+      <h1>projects</h1>
+      <p class="lede">things i've built, run or tinkered with.</p>
+    </header>
+    <ul class="project-list">
+          <li>
+            <a href="../projects/mglf1/">
+              <span class="project-text">
+                <span class="project-name">MGLF1</span>
+                <span class="project-summary">a formula 1-inspired website project.</span>
+              </span>
+              <svg class="icon go" aria-hidden="true"><use href="../icons/icons.svg?v=e73d9ee9#arrow-right"></use></svg>
+            </a>
+            <ul class="badges" aria-label="tools and skills"><li class="badge badge-tool">JavaScript</li><li class="badge badge-tool">React</li><li class="badge badge-tool">PostgreSQL</li><li class="badge badge-tool">Tailwind CSS</li><li class="badge badge-tool">Next.js</li><li class="badge badge-tool">npm</li><li class="badge badge-tool">nginx</li><li class="badge badge-tool">HTML</li><li class="badge badge-skill">data analytics</li></ul>
+          </li>
+          <li>
+            <a href="../projects/valesmp/">
+              <span class="project-text">
+                <span class="project-name">ValeSMP</span>
+                <span class="project-summary">a community-focused minecraft survival server and website.</span>
+              </span>
+              <svg class="icon go" aria-hidden="true"><use href="../icons/icons.svg?v=e73d9ee9#arrow-right"></use></svg>
+            </a>
+            <ul class="badges" aria-label="tools and skills"><li class="badge badge-tool">Docker</li><li class="badge badge-tool">Next.js</li><li class="badge badge-tool">Java</li><li class="badge badge-tool">JavaScript</li><li class="badge badge-tool">Velocity</li><li class="badge badge-tool">PurpurMC</li><li class="badge badge-tool">GitHub</li><li class="badge badge-skill">community management</li></ul>
+          </li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 harry · <a href="https://github.com/hxrry27/hxrry.dev" rel="noreferrer">source on GitHub</a></p>
+  </footer>
+</body>
+</html>
